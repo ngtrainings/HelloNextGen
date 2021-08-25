@@ -1,14 +1,22 @@
 # HelloNextGen
 
-# build_simple_java
+- build_simple_java
+```
 Click on https://www.katacoda.com/courses/docker/deploying-first-container
 Configure Maven version
+Jenkins install Maven for you
+    You must go to Jenkins Global Tool Configuration, and configure a Maven version with automatic installer (from the web).
+    In Job configuration, for Maven Version, you must select that particular version that you've just configured.
+
 Create new build_simple_java pipeline https://github.com/ngtrainings/HelloNextGen.git
 Submit new build
+```
 
-# build_simple_java_docker_upload
+- build_simple_java_docker_upload
+```
 Create new build_simple_java_docker_upload pipeline https://github.com/ngtrainings/HelloNextGen.git
 Configure docker hub credentials
 Submit new build
 Verify image in docker hub
 run in katakoda
+```
