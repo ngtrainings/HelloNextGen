@@ -13,7 +13,7 @@ Create new build_simple_java pipeline https://github.com/ngtrainings/HelloNextGe
 Submit new build
 ```
 
-- build_simple_java_docker_upload
+- build_simple_java_git_upload
 ```
 Create new build_simple_java_docker_upload pipeline https://github.com/ngtrainings/HelloNextGen.git
 Configure docker hub credentials
