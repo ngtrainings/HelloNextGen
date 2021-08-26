@@ -18,8 +18,15 @@ Submit new build
 Create new build_simple_java_docker_upload pipeline https://github.com/ngtrainings/HelloNextGen.git
 Configure git hub credentials
 Submit new build
-Verify image in git hub
+Verify jar file in git hub
 download and run in katakoda
 git clone https://github.com/ngtrainings/HelloNextGen.git
 java -jar jar file name
+```
+
+- build_multi_branch_pipeline
+```
+Create new build_multi_branch_pipeline pipeline https://github.com/ngtrainings/HelloNextGen.git
+Submit new build iwth params
+Verify pipeline
 ```
