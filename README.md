@@ -16,6 +16,9 @@ Jenkins install Maven for you
 
 Create new build_simple_java pipeline https://github.com/ngtrainings/HelloNextGen.git
 Submit new build
+Go to terminal and run jar file
+cd /var/jenkins_home/workspace/jenkin-docker-integration/target/
+java -jar HelloNextGen-0.0.1-SNAPSHOT.jar
 ```
 
 - build_simple_java_git_upload
